@@ -7,7 +7,7 @@ namespace MathsEngine
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
-            Differentiation.Differentiate();
+            Console.WriteLine(Differentiation.Differentiate("Equation"));
         }
     }
 }
